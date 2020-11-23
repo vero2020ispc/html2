@@ -6,25 +6,25 @@ font-family: 'Times New Roman', Times, serif;
 background-color: blanchedalmond;
 }
 body{
-    width: 600px;
+    
+    width: 1000px;
     margin: 0 auto;
     background-color: coral;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
 
 }
 p,li {
-font-size: 16px;
+font-size: 20px;
 line-height: 2;
 letter-spacing: 1px;
 }
-h2{
-    font-size: 40px;
+h2,h3{
+    font-size: 35px;
     text-align: center;
 
 }
@@ -32,3 +32,16 @@ image{
 display: block;
 margin: 0 auto;
 }
+a:link, a:visited {
+    
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 102, 0);
+  }
