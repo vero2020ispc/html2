@@ -1,0 +1,4 @@
+display: inline-block; hace un efecto de cuadro alrededor de las palabras ,como si fuera un boton
+background-color: #80706f; da un color de fondo a la pagina,boton o lo que sea
+
+paso uno copiar ese link
