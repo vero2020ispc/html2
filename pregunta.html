@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <p> ¿ Cómo se llama el tipo de Energía que es generada por el sol?</p>  
+</head>
+<body>
+    <input type="text" id="respuesta">
+    
+    <button type="button"  onclick="intentar()">Intentar</button>  
+       
+</body>
+
+<script>
+  
+let intentos = 0; //variable que almacena cuantos intentos van
+let correcta ="solar"; //palabra correcta
+
+function intentar(){
+    var x = document.getElementById("respuesta").value;
+
+    if (x == correcta){
+        alert("mensaje avisando que gano");
+    }else
+    intentos++;  //suma 1 por cada respuesta erronea
+        switch (intentos){
+        case 2:
+            alert("Ayuda: Es la energía que utiliza paneles"); //si le erro 2 veces va una ayuda
+            alert("Le quedan 2 intentos")
+            break;
+        case 3:
+            alert("Ayuda:Es renovable"); //si le erro 3 va otra
+            
+            alert("Le queda 1 intento");
+                break;
+        case 4:
+            alert("Ayuda: Produce daños en la piel con una exposición prolongada"); // a la cuarta perdio            
+            alert("Perdió");
+            break;
+        default:        
+        }
+}
+
+</script>
+
+</html>
